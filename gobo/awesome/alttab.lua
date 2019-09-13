@@ -89,6 +89,7 @@ local current_client
 local function raise(c)
    c.minimized = false
    c:raise()
+   c.first_tag:view_only()
    client.focus = c
    current_client = c
    return c
