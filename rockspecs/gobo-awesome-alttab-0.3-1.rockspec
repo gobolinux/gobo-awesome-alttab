@@ -1,8 +1,8 @@
 package = "gobo-awesome-alttab"
-version = "0.1-1"
+version = "0.3-1"
 source = {
    url = "git+https://github.com/gobolinux/gobo-awesome-alttab.git",
-   tag = "0.1",
+   tag = "0.3",
 }
 description = {
    summary = "An \"Alt-Tab\" window switching widget for Awesome WM.",
