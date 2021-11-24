@@ -509,7 +509,7 @@ local function add_minimized_clients(alttab_table)
             -- check if client is already in the history
             local add_to_table = true
             for k = 1, #alttab_table do
-               if alttab_table[k].client == c then
+               if alttab_table[k] and alttab_table[k].client == c then
                   add_to_table = false
                   break
                end
